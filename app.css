@@ -1,0 +1,30 @@
+body{
+    height: 100%;
+}
+
+.no-content-message{
+    display: block;
+    width: 100%;
+    text-align: center;
+    top: 45%;
+    position: relative;
+}
+
+.no-content-message .main-message{
+    text-align: right;
+    display: block;
+    right: 75%;
+    width: 60%;
+    font-size: 25px;
+    font-family: ‘Trebuchet MS’, Helvetica, sans-serif;    
+}
+
+.no-content-message .meta-message{
+    display: block;
+    text-align: right;
+    right: 75%;
+    width: 60%;
+    font-size: 16px;
+    font-family: Courier New, Courier, monospace;
+    margin: 5px 0px 0px 0px;
+}
